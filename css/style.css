@@ -1,0 +1,46 @@
+body{
+    background-color: #F7ECDE;
+}
+h1{
+    display: inline !important;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Pacifico', cursive;;
+}
+
+h1::before{
+    content: '';
+    width: 18%;
+    height: 25%;
+    position: absolute;
+   bottom: 10%;
+   left: 41%;
+    background-color: #ffc107;
+    transition: height 350ms;
+    z-index: -1;
+}
+h1:hover::before{
+    height: 50%;
+}
+.bookmark{
+    border-top: 2px dotted black;
+  
+   
+
+}
+h2{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Righteous', sans-serif;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form{
+    border-bottom: 2px dotted black;
+}
+label{
+    font-family: 'Righteous', sans-serif;
+    padding-right: 30px;
+}
