@@ -64,7 +64,7 @@ function display(array){
     <td>${i + 1}</td>
     <td>${array[i].siteName}</td>
     
-    <td><button class="btn  btn-info" data-index="${i}" onclick="visit('$array[i].siteUrl}')"'><i class="fa-solid fa-eye"></i>visit</button></td> 
+     <td><button class="btn  btn-info" data-index="${i}" onclick="visit('${array[i].siteUrl}')"'><i class="fa-solid fa-eye"></i>visit</button></td> 
     <td><button class="btn btn-danger" onclick='deletIndex(${i})'><i class="fa-solid fa-trash-can"></i> Delete</button></td>
     
     </tr>`
